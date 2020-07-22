@@ -23,3 +23,6 @@
 #### Mouse
 Use Mouse to navigate around.
 
+![](ScreenShots/screenshot_normal.GIF)
+![](ScreenShots/screenshot_refl.GIF)
+
