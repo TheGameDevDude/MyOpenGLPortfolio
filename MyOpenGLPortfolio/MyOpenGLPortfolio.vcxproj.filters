@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Controls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DirectionalLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PointLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SpotLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TextureLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Lighting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SkyBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Fbo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FboRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObjects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ReflectionProb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\models\nanosuit\nanosuit.mtl" />
+    <None Include="res\shaders\DiffuseSpecularEmissiveShader\fragmentShader.shader" />
+    <None Include="res\shaders\DiffuseSpecularEmissiveShader\vertexShader.shader" />
+    <None Include="res\shaders\DiffuseSpecularShader\fragmentShader.shader" />
+    <None Include="res\shaders\DiffuseSpecularShader\vertexShader.shader" />
+    <None Include="res\shaders\DiffuseSpecularEmissiveShaderInstanced\fragmentShader.shader" />
+    <None Include="res\shaders\DiffuseSpecularEmissiveShaderInstanced\vertexShader.shader" />
+    <None Include="res\shaders\DiffuseSpecularShaderInstanced\fragmentShader.shader" />
+    <None Include="res\shaders\DiffuseSpecularShaderInstanced\vertexShader.shader" />
+    <None Include="res\shaders\SkyBoxShader\fragmentShader.shader" />
+    <None Include="res\shaders\SkyBoxShader\vertexShader.shader" />
+    <None Include="res\models\nanosuit\nanosuit.blend" />
+    <None Include="res\shaders\FboShader\fragmentShader.shader" />
+    <None Include="res\shaders\FboShader\vertexShader.shader" />
+    <None Include="res\shaders\DiffuseSpecularReflectiveShader\fragmentShader.shader" />
+    <None Include="res\shaders\DiffuseSpecularReflectiveShader\vertexShader.shader" />
+    <None Include="res\shaders\DiffuseSpecularReflectiveShaderInstanced\fragmentShader.shader" />
+    <None Include="res\shaders\DiffuseSpecularReflectiveShaderInstanced\vertexShader.shader" />
+    <None Include="res\shaders\DiffuseNLShader\fragmentShader.shader" />
+    <None Include="res\shaders\DiffuseNLShader\vertexShader.shader" />
+    <None Include="res\shaders\DiffuseNLShaderInstanced\fragmentShader.shader" />
+    <None Include="res\shaders\DiffuseNLShaderInstanced\vertexShader.shader" />
+    <None Include="res\shaders\DiffuseEmissiveNLShader\fragmentShader.shader" />
+    <None Include="res\shaders\DiffuseEmissiveNLShader\vertexShader.shader" />
+    <None Include="res\shaders\DiffuseEmissiveNLShaderInstanced\fragmentShader.shader" />
+    <None Include="res\shaders\DiffuseEmissiveNLShaderInstanced\vertexShader.shader" />
+    <None Include="res\models\grass\grass.mtl" />
+    <None Include="res\shaders\GrassShader\fragmentShader.shader" />
+    <None Include="res\shaders\GrassShader\vertexShader.shader" />
+    <None Include="res\shaders\GrassNLShader\fragmentShader.shader" />
+    <None Include="res\shaders\GrassNLShader\vertexShader.shader" />
+    <None Include="res\shaders\DiffuseNormalShader\vertexShader.shader" />
+    <None Include="res\shaders\DiffuseNormalShader\fragmentShader.shader" />
+    <None Include="res\shaders\DiffuseSpecularNormalShader\vertexShader.shader" />
+    <None Include="res\shaders\DiffuseSpecularNormalShader\fragmentShader.shader" />
+    <None Include="res\shaders\DiffuseSpecularNormalParallaxShader\fragmentShader.shader" />
+    <None Include="res\shaders\DiffuseSpecularNormalParallaxShader\vertexShader.shader" />
+    <None Include="res\models\brick\brick.mtl" />
+    <None Include="res\models\coolerbrick\coolerbrick.mtl" />
+    <None Include="res\models\crate\crate.mtl" />
+    <None Include="res\models\magicwood\magicwood.mtl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\textures\container.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\container2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\container2_specular.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\lighting_maps_specular_color.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\awesomeface.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\nanosuit\arm_dif.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\nanosuit\arm_showroom_ddn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\nanosuit\arm_showroom_refl.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\nanosuit\arm_showroom_spec.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\nanosuit\body_dif.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\nanosuit\body_showroom_ddn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\nanosuit\body_showroom_refl.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\nanosuit\body_showroom_spec.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\nanosuit\glass_ddn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\nanosuit\glass_dif.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\nanosuit\glass_refl.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\nanosuit\hand_dif.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\nanosuit\hand_showroom_ddn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\nanosuit\hand_showroom_refl.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\nanosuit\hand_showroom_spec.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\nanosuit\helmet_diff.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\nanosuit\helmet_showroom_ddn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\nanosuit\helmet_showroom_refl.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\nanosuit\helmet_showroom_spec.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\nanosuit\leg_dif.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\nanosuit\leg_showroom_ddn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\nanosuit\leg_showroom_refl.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\nanosuit\leg_showroom_spec.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\skyboxtextures\Nebula\borg_bk.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\skyboxtextures\Nebula\borg_dn.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\skyboxtextures\Nebula\borg_ft.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\skyboxtextures\Nebula\borg_lf.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\skyboxtextures\Nebula\borg_rt.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\skyboxtextures\Nebula\borg_up.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\skyboxtextures\blueMountain\back.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\skyboxtextures\blueMountain\bottom.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\skyboxtextures\blueMountain\front.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\skyboxtextures\blueMountain\left.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\skyboxtextures\blueMountain\right.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\skyboxtextures\blueMountain\top.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\grass\grass.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\brick\brickwall.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\brick\brickwall_normal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\brick\brickwall_spec.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\coolerbrick\bricks2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\coolerbrick\bricks2_disp.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\coolerbrick\bricks2_normal.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\coolerbrick\bricks2_spec.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\crate\container2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\crate\container2_specular.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\crate\lighting_maps_specular_color.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\magicwood\toy_box_disp.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\magicwood\toy_box_normal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\magicwood\wood.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\magicwood\wood_spec.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DirectionalLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PointLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SpotLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TextureLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Lighting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Models.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ModelNames.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SkyBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Fbo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FboRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObjects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ReflectionProb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="res\models\nanosuit\LICENSE.txt" />
+  </ItemGroup>
+</Project>
