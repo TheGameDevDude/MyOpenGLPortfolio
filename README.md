@@ -7,7 +7,7 @@
 + Normal mapping
 + Parallax mapping 
 + Batch rendering 
-+ it has realtime reflections
++ Realtime reflections
 + Exclude the .obj file from the project before compiling or building the project
 
 #### Keyboard
