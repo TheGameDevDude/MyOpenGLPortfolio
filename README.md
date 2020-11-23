@@ -7,7 +7,7 @@
 + Normal mapping
 + Parallax mapping 
 + Batch rendering 
-+ it has realtime reflections
++ Realtime reflections
 + Exclude the .obj file from the project before compiling or building the project
 
 #### Keyboard
@@ -23,6 +23,8 @@
 #### Mouse
 Use Mouse to navigate around.
 
+![](ScreenShots/screenshot0.png)
+![](ScreenShots/screenshot3.png)
 ![](ScreenShots/screenshot_normal.GIF)
 ![](ScreenShots/screenshot_refl.GIF)
 
