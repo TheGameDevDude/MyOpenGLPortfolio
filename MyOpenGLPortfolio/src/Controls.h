@@ -11,8 +11,11 @@ public:
 	bool up;
 	bool down;
 
+	// mouse dynamic position 
 	double mouseDX;
 	double mouseDY;
+
+	// mouse position 
 	double mouseX;
 	double mouseY;
 

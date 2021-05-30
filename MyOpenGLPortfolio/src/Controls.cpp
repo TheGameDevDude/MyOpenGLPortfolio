@@ -15,16 +15,19 @@ Controls::Controls(GLFWwindow* window) {
 	glfwGetWindowSize(window, &windowWidth, &windowHeight);
 }
 
+// keyboard and mouse input 
 void Controls::tick() {
 	mouse();
 	keyboard();
 }
 
+// figuring out dynamic position (current pos - mid point of the screen)
 void Controls::mouse() {
 	glfwGetWindowSize(window, &windowWidth, &windowHeight);
 	glfwGetCursorPos(window, &mouseX, &mouseY);
 	mouseDX = mouseX - windowWidth / 2;
 	mouseDY = -(mouseY - windowHeight / 2);
+	// reseting the cursor back to mid of the screen
 	glfwSetCursorPos(window, windowWidth / 2, windowHeight / 2);
 }
 

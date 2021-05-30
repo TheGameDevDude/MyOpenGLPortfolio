@@ -1,4 +1,7 @@
 # MyOpenGLPortfolio
+![](ScreenShots/screenshot_normal.GIF)
+
+### Features
 
 + OpenGL 3.0+
 + Diffuse lighting
@@ -8,9 +11,14 @@
 + Parallax mapping 
 + Batch rendering 
 + Realtime reflections
-+ Exclude the .obj file from the project before compiling or building the project
 
-#### Keyboard
+# Running the executable
++ Download latest executable from the releases page.
++ The executable only works on windows.
+
+# User Interface
+
+### Keyboard
 | Action | Keys |
 |--------|------|
 |Move Forward|<KBD>W</KBD>|
@@ -20,11 +28,12 @@
 |Move Up|<KBD>Space</KBD>|
 |Move Down|<KBD>Shift</KBD>|
 
-#### Mouse
+### Mouse
+
 Use Mouse to navigate around.
 
+# More Screenshots
 ![](ScreenShots/screenshot0.png)
 ![](ScreenShots/screenshot3.png)
-![](ScreenShots/screenshot_normal.GIF)
 ![](ScreenShots/screenshot_refl.GIF)
 

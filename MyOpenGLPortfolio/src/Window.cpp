@@ -17,11 +17,14 @@ Window::Window(int WIDTH, int HEIGHT, const char* title) {
 		return;
 	}
 
+	// hide cursor 
 	glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_HIDDEN);
 
+	// setting OpenGL context for the current window thread 
 	glfwMakeContextCurrent(window);
 	glfwSetFramebufferSizeCallback(window, [](GLFWwindow* window, int width, int height) {glViewport(0, 0, width, height); });
 
+	// initializing OpenGL
 	if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
 		std::cout << "Failed to load GLAD!" << std::endl;
 		return;
