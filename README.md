@@ -13,7 +13,7 @@
 + Realtime reflections
 
 # Running the executable
-+ Download latest executable from the releases page.
++ Download latest executable from the [releases page](https://github.com/TheGameDevDude/MyOpenGLPortfolio/releases).
 + The executable only works on windows.
 
 # User Interface
